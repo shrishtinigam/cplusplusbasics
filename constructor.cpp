@@ -54,11 +54,6 @@ int main()
     Profile Pobj2("Kat","18");
     cout << Pobj2.getName() << endl;
     cout << Pobj2.getAge() << endl;
-
-    Profile Pobj3("Nelle","26");
-    cout << Pobj3.getName() << endl;
-    cout << Pobj3.getAge() << endl;
-
     return 0;
 }
 
