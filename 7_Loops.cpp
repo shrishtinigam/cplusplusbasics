@@ -52,10 +52,9 @@ int main()
     for (int day = 1; day <= 30; day++){
         a = p* pow(1+r,day); // 1+r to the power day
         cout<< day << "--"<<a<<endl;
-
+    }
     // Switch Case
 
-    int age;
     cout<<"Age: ";
     cin>>age;
 
@@ -68,10 +67,10 @@ int main()
             cout<<"Lotto Tickets "<<endl;
             break;
         case 21:
-            cout<<"Buy Beer"<<endl;
+            cout<<"Buy Beer "<<endl;
             break;
         default:
-            cout<<"Have Lunch"<<endl;
+            cout<<"Have Lunch "<<endl;
     }
 
 

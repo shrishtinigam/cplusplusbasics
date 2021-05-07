@@ -29,7 +29,7 @@ int CutenessCalculator()
     /* These variables cannot be used outside the function they are declared in
        These are called local variables.
        Over here, it has a choice between a local and global variable with the same
-       name 'age'. Whenever it has such a choice, it chooses the local variable by default.
+       name 'age'. Whenever it has such a choice, it chooses the local variable (innermost) by default.
        In order to use the global variable (here, 'age'), we use the Unary Scope Reolution 
        Operator or the :: */
 
@@ -38,5 +38,5 @@ int CutenessCalculator()
     cout<<"Enter your favourite number: ";
     cin>>number;
     srand(age + number + ::age);
-    cout<<"Cuteness out of 10: "<< 1+(rand()%10)<<endl; 
+    cout<<"Cuteness out of 10: "<< 1+(rand()%10) << endl; 
 }
